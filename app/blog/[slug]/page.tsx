@@ -1,7 +1,7 @@
 import HomeComp from "../../(componant)/homeComp/pag";
 import Image from "next/image";
 import auther from '@/public/assests/auther.png'
-import Twiter from '@/public/assests/vector.svg'
+import Twiter from '@/public/assests/twitter.svg'
 import fb from '@/public/assests/facebook1.svg'
 import client from "./../../lib/contentfulClient";
 
