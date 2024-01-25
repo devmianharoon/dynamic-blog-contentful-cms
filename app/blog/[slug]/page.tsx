@@ -1,9 +1,8 @@
 import HomeComp from "../../(componant)/homeComp/pag";
 import Image from "next/image";
-import auther from '../../../public/assests/auther.png'
-import Twiter from '../../../public/assests/vector.svg'
-import fb from '../../../public/assests/facebook1.svg'
-import Reactangel from '../../../public/assests/Rectangle8.png'
+import auther from '@/public/assests/auther.png'
+import Twiter from '@/public/assests/Vector.svg'
+import fb from '@/public/assests/facebook1.svg'
 import client from "./../../lib/contentfulClient";
 
 const fetchBlogData = async () => {
@@ -18,7 +17,6 @@ const fetchBlogData = async () => {
     })
     return data
 }
-
 export default async function Blogs({ params }: any) {
 
     const data = await fetchBlogData();
